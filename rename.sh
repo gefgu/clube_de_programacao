@@ -1,5 +1,5 @@
 #!/bin/bash
 
-for filename in *.cpp;
-do mv "$filename" "${filename%.*}-Gustavo_Santos.cpp";
+for filename in URI*.cpp;
+do mv "$filename" "uri${filename:3}";
 done;
