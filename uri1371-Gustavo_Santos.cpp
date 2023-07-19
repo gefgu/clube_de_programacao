@@ -11,8 +11,7 @@ int main()
   {
     for (i = 1; i * i <= n; i++)
     {
-      if (i * i <= n)
-        printf("%s%d", i < 2 ? "" : " ", i * i);
+      printf("%s%d", i < 2 ? "" : " ", i * i);
     }
     printf("\n");
   }
