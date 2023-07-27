@@ -2,7 +2,8 @@
 
 using namespace std;
 
-// Ideia: Escolha com menor: multa / dias
+// Ideia: Escolha com maior "custo benefício" para ser treinado: multa / dias
+// A multa é o "benefício" e a quantidade de dias, o "custo"
 
 #define MAX 112345
 
